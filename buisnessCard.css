@@ -1,8 +1,13 @@
 .avatar{
-  width: 150px;
+  width: 400px;
+  margin-right: 50px;
 }
 .card{
-  border: 1px dotted blue;
   padding: 20px;
   background: lightblue;
+  display: flex;
+  justify-content: space-around;
+}
+.dotted{
+  border: 1px dotted blue;
 }
