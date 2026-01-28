@@ -1,0 +1,139 @@
+body{
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  background: linear-gradient(blue, pink);
+  color: white;
+  text-shadow: 0 0 1px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 3px;
+}
+#bff{
+  border-radius: 50%;
+  width: 200px;
+  border: 3.45px solid palevioletred;
+  filter: drop-shadow(0px 0px 5px palevioletred);
+}
+.year{
+  background: palevioletred;
+  border-radius: 6px;
+  padding: 5px 10px;
+
+}
+
+h4{
+  background:palevioletred ;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 0;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.birthday-image{
+  background-image: url("https://imgs.search.brave.com/1TBHMX5D-OMbbMjbogHZjXY1j4vSuUCRrD71u8OdS2c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjIv/MzIzLzc4My9zbWFs/bC9iaWctY2FyZGJv/YXJkLWJveC1iaXJ0/aGRheS1zdXJwcmlz/ZS1hbmQtYmFsbG9v/bnMtd2l0aC1jb25m/ZXR0aS1vbi1waW5r/LWJhY2tncm91bmQt/cGhvdG8uanBn");
+  width: 400px;
+  border: 5px solid white;
+  border-radius: 10px;
+  height: 400px;
+  background-size: cover;
+  margin: 0 auto;
+}
+.hover{
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.birthday-image:hover{
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExazUxbGZ6dDd5cmhoMzlxeWVkbG10MXhjYTkyajlpdjd2Z3k3cTJzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fUQ4rhUZJYiQsas6WD/giphy.gif");
+}
+
+.birthday-image2{
+  background-image: url("https://imgs.search.brave.com/1TBHMX5D-OMbbMjbogHZjXY1j4vSuUCRrD71u8OdS2c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjIv/MzIzLzc4My9zbWFs/bC9iaWctY2FyZGJv/YXJkLWJveC1iaXJ0/aGRheS1zdXJwcmlz/ZS1hbmQtYmFsbG9v/bnMtd2l0aC1jb25m/ZXR0aS1vbi1waW5r/LWJhY2tncm91bmQt/cGhvdG8uanBn");
+  width: 400px;
+  border: 5px solid white;
+  border-radius: 10px;
+  height: 400px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+
+.birthday-image2:hover{
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWtjNXF6MWt2ZjAxM2JmZjc2cmU4cDhibWF5Y3RrdG9rb3JxcjFlYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QjEj30mbv4nWQ4SSO9/giphy.gif");
+}
+
+.birthday-image3{
+  background-image: url("https://imgs.search.brave.com/1TBHMX5D-OMbbMjbogHZjXY1j4vSuUCRrD71u8OdS2c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjIv/MzIzLzc4My9zbWFs/bC9iaWctY2FyZGJv/YXJkLWJveC1iaXJ0/aGRheS1zdXJwcmlz/ZS1hbmQtYmFsbG9v/bnMtd2l0aC1jb25m/ZXR0aS1vbi1waW5r/LWJhY2tncm91bmQt/cGhvdG8uanBn");
+  width: 400px;
+  border: 5px solid white;
+  border-radius: 10px;
+  height: 400px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.birthday-image3:hover{
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXg3NzU0ZjhuN3QyMjBjNGdjemNpcnF0ejcwaWtoN2Q3dWxtcG1uZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZE7PwZ7w2BN3trcox3/giphy.gif");
+}
+
+
+
+
+.birthday-image4{
+  background-image: url("https://imgs.search.brave.com/1TBHMX5D-OMbbMjbogHZjXY1j4vSuUCRrD71u8OdS2c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjIv/MzIzLzc4My9zbWFs/bC9iaWctY2FyZGJv/YXJkLWJveC1iaXJ0/aGRheS1zdXJwcmlz/ZS1hbmQtYmFsbG9v/bnMtd2l0aC1jb25m/ZXR0aS1vbi1waW5r/LWJhY2tncm91bmQt/cGhvdG8uanBn");
+  width: 400px;
+  border: 5px solid white;
+  border-radius: 10px;
+  height: 400px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.birthday-image4:hover{
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXB4azFuNGd4Z3hreWc0dGozY3d6ZmprdGV2ajdmZmZ0Nnh6a2Y2NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WEQjbIHkuNTqBaV6t8/giphy.gif");
+}
+
+
+
+.birthday-image5{
+  background-image: url("https://imgs.search.brave.com/1TBHMX5D-OMbbMjbogHZjXY1j4vSuUCRrD71u8OdS2c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjIv/MzIzLzc4My9zbWFs/bC9iaWctY2FyZGJv/YXJkLWJveC1iaXJ0/aGRheS1zdXJwcmlz/ZS1hbmQtYmFsbG9v/bnMtd2l0aC1jb25m/ZXR0aS1vbi1waW5r/LWJhY2tncm91bmQt/cGhvdG8uanBn");
+  width: 400px;
+  border: 5px solid white;
+  border-radius: 10px;
+  height: 200px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.birthday-image5:hover{
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHUxbGx6OXkyODRqcWp1c2djbjhnYjNpczhheWhjYTNvN2dsOTN3ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bIEzoZX0qJaG6s6frc/giphy.gif");
+}
+
+
+#footer-id{
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  background: #A2C2E0;
+  color: white;
+  text-shadow: 0 0 1px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 3px;
+}
+
+.footer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.link-a{
+  color: aliceblue;
+}

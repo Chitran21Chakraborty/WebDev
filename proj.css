@@ -1,0 +1,50 @@
+body{
+  font-family: "Orbitron", sans-serif;
+  background: #c2b9b9;
+}
+.container{
+  background: #e5e5e5;
+  margin: 0px;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+
+}
+.team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+
+.home-box, .guest-box{
+  height: 300px;
+  width: 300px;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  
+}
+
+
+.buttons{
+  display: flex;
+  gap: 31px;
+}
+
+
+.buttons button {
+  background-color: bisque;
+  border-radius: 6px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: inherit;
+}
+

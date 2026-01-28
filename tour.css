@@ -1,0 +1,116 @@
+body{
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+}
+
+.top-section{
+  height: 33.33vh;
+  background-image: url("https://images.unsplash.com/photo-1477586957327-847a0f3f4fe3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,p{
+  margin: 0;
+  color: antiquewhite;
+}
+h1{
+  margin-bottom: 10px;
+  background-color: #AB945F;
+  padding: 5px;
+}
+p{
+  background-color: #5FBAC3;
+  padding: 5px;
+}
+
+
+.image{
+  border-radius: 50%;
+  width: 100px;
+  object-fit: cover
+
+}
+
+.middle-paragraph{
+  color: black;
+  background-color: #C4AE6C;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.middle{
+  background-color: #C4AE6C;
+
+}
+
+.middle-h2{
+  text-align: center;
+  margin-bottom: 19px;
+  margin-top: 0;
+  padding-top: 5px;
+}
+
+#make-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic{
+  height: 300px;
+  width: 300px;
+  background-image: url("face.jpg");
+  background-position: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+.bootom-part{
+  background-color: #a2d9de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.bootom-part1{
+  background-color: #a2d9de;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description{
+  margin: 20px;
+  width: 800px;
+  word-spacing: 4px;
+}
+
+.your-guide{
+  background-color: #a2d9de;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  padding: 7px;
+}
+
+.contact{
+  word-spacing: 4px;
+  padding: 10px;
+}
